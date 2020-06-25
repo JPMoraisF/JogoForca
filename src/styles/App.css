@@ -1,0 +1,23 @@
+ .App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
+#section {
+  background-color: #fff ;
+  margin: 10px;
+  border-radius: 30px;
+  border-color: #bbb;
+  border-width: medium;
+  border-style: solid;
+  max-width: 800px;
+}
